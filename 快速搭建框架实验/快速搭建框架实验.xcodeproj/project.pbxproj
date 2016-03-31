@@ -14,6 +14,7 @@
 		1526C1781CAD049A001DF365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1526C1761CAD049A001DF365 /* LaunchScreen.storyboard */; };
 		1526C1831CAD049A001DF365 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C1821CAD049A001DF365 /* ________Tests.m */; };
 		1526C18E1CAD049A001DF365 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C18D1CAD049A001DF365 /* ________UITests.m */; };
+		1526C1B81CAD132C001DF365 /* CXTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C1B71CAD132C001DF365 /* CXTabbarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		1526C1891CAD049A001DF365 /* 快速搭建框架实验UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "快速搭建框架实验UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1526C18D1CAD049A001DF365 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		1526C18F1CAD049A001DF365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1526C1B61CAD132C001DF365 /* CXTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabbarController.h; sourceTree = "<group>"; };
+		1526C1B71CAD132C001DF365 /* CXTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabbarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 		1526C19E1CAD0919001DF365 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				1526C1B61CAD132C001DF365 /* CXTabbarController.h */,
+				1526C1B71CAD132C001DF365 /* CXTabbarController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -468,6 +473,7 @@
 			files = (
 				1526C16D1CAD049A001DF365 /* AppDelegate.m in Sources */,
 				1526C16A1CAD049A001DF365 /* main.m in Sources */,
+				1526C1B81CAD132C001DF365 /* CXTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

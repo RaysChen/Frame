@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CXTabbarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //1.创建窗口
+    self.window = [[UIWindow alloc]init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    
+    //2.设置窗口的根控制器
+    self.window.rootViewController = [[CXTabbarController alloc]init];
+    
+    //3.显示窗口
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
