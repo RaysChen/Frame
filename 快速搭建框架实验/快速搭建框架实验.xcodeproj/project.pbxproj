@@ -15,6 +15,10 @@
 		1526C1831CAD049A001DF365 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C1821CAD049A001DF365 /* ________Tests.m */; };
 		1526C18E1CAD049A001DF365 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C18D1CAD049A001DF365 /* ________UITests.m */; };
 		1526C1B81CAD132C001DF365 /* CXTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C1B71CAD132C001DF365 /* CXTabbarController.m */; };
+		1526C62F1CAD3F22001DF365 /* CXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C62E1CAD3F22001DF365 /* CXEssenceViewController.m */; };
+		1526C6321CAD3F4C001DF365 /* CXNewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C6311CAD3F4C001DF365 /* CXNewPostViewController.m */; };
+		1526C6351CAD3F70001DF365 /* CXFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C6341CAD3F70001DF365 /* CXFocusViewController.m */; };
+		1526C6381CAD3F8B001DF365 /* CXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C6371CAD3F8B001DF365 /* CXMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		1526C18F1CAD049A001DF365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1526C1B61CAD132C001DF365 /* CXTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabbarController.h; sourceTree = "<group>"; };
 		1526C1B71CAD132C001DF365 /* CXTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabbarController.m; sourceTree = "<group>"; };
+		1526C62D1CAD3F22001DF365 /* CXEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXEssenceViewController.h; sourceTree = "<group>"; };
+		1526C62E1CAD3F22001DF365 /* CXEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXEssenceViewController.m; sourceTree = "<group>"; };
+		1526C6301CAD3F4C001DF365 /* CXNewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXNewPostViewController.h; sourceTree = "<group>"; };
+		1526C6311CAD3F4C001DF365 /* CXNewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXNewPostViewController.m; sourceTree = "<group>"; };
+		1526C6331CAD3F70001DF365 /* CXFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXFocusViewController.h; sourceTree = "<group>"; };
+		1526C6341CAD3F70001DF365 /* CXFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXFocusViewController.m; sourceTree = "<group>"; };
+		1526C6361CAD3F8B001DF365 /* CXMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMeViewController.h; sourceTree = "<group>"; };
+		1526C6371CAD3F8B001DF365 /* CXMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,11 +153,11 @@
 			isa = PBXGroup;
 			children = (
 				1526C1B41CAD0B7E001DF365 /* orther  */,
-				1526C1A41CAD09C1001DF365 /* 精选 */,
-				1526C1A31CAD09BE001DF365 /* 新帖 */,
+				1526C1A41CAD09C1001DF365 /* Essence精选 */,
+				1526C1A31CAD09BE001DF365 /* NewPost新帖 */,
 				1526C1A21CAD09BC001DF365 /* 发布 */,
-				1526C1A11CAD09B9001DF365 /* 关注 */,
-				1526C1A01CAD09B4001DF365 /* 我的 */,
+				1526C1A11CAD09B9001DF365 /* Focus关注 */,
+				1526C1A01CAD09B4001DF365 /* Me我的 */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -175,24 +187,28 @@
 			name = view;
 			sourceTree = "<group>";
 		};
-		1526C1A01CAD09B4001DF365 /* 我的 */ = {
+		1526C1A01CAD09B4001DF365 /* Me我的 */ = {
 			isa = PBXGroup;
 			children = (
 				1526C1B31CAD0AD7001DF365 /* controller */,
 				1526C1B21CAD0AD4001DF365 /* view */,
 				1526C1B11CAD0AD1001DF365 /* model */,
+				1526C6361CAD3F8B001DF365 /* CXMeViewController.h */,
+				1526C6371CAD3F8B001DF365 /* CXMeViewController.m */,
 			);
-			name = "我的";
+			name = "Me我的";
 			sourceTree = "<group>";
 		};
-		1526C1A11CAD09B9001DF365 /* 关注 */ = {
+		1526C1A11CAD09B9001DF365 /* Focus关注 */ = {
 			isa = PBXGroup;
 			children = (
 				1526C1B01CAD0AB6001DF365 /* controller */,
 				1526C1AF1CAD0AB3001DF365 /* view */,
 				1526C1AE1CAD0AB0001DF365 /* model */,
+				1526C6331CAD3F70001DF365 /* CXFocusViewController.h */,
+				1526C6341CAD3F70001DF365 /* CXFocusViewController.m */,
 			);
-			name = "关注";
+			name = "Focus关注";
 			sourceTree = "<group>";
 		};
 		1526C1A21CAD09BC001DF365 /* 发布 */ = {
@@ -205,24 +221,26 @@
 			name = "发布";
 			sourceTree = "<group>";
 		};
-		1526C1A31CAD09BE001DF365 /* 新帖 */ = {
+		1526C1A31CAD09BE001DF365 /* NewPost新帖 */ = {
 			isa = PBXGroup;
 			children = (
 				1526C1AA1CAD0A59001DF365 /* controller */,
 				1526C1A91CAD0A57001DF365 /* view */,
 				1526C1A81CAD0A54001DF365 /* model */,
+				1526C6301CAD3F4C001DF365 /* CXNewPostViewController.h */,
+				1526C6311CAD3F4C001DF365 /* CXNewPostViewController.m */,
 			);
-			name = "新帖";
+			name = "NewPost新帖";
 			sourceTree = "<group>";
 		};
-		1526C1A41CAD09C1001DF365 /* 精选 */ = {
+		1526C1A41CAD09C1001DF365 /* Essence精选 */ = {
 			isa = PBXGroup;
 			children = (
 				1526C1A71CAD0A1A001DF365 /* controller */,
 				1526C1A61CAD0A16001DF365 /* view */,
 				1526C1A51CAD0A12001DF365 /* model */,
 			);
-			name = "精选";
+			name = "Essence精选";
 			sourceTree = "<group>";
 		};
 		1526C1A51CAD0A12001DF365 /* model */ = {
@@ -242,6 +260,8 @@
 		1526C1A71CAD0A1A001DF365 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				1526C62D1CAD3F22001DF365 /* CXEssenceViewController.h */,
+				1526C62E1CAD3F22001DF365 /* CXEssenceViewController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -471,9 +491,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1526C62F1CAD3F22001DF365 /* CXEssenceViewController.m in Sources */,
+				1526C6381CAD3F8B001DF365 /* CXMeViewController.m in Sources */,
 				1526C16D1CAD049A001DF365 /* AppDelegate.m in Sources */,
 				1526C16A1CAD049A001DF365 /* main.m in Sources */,
 				1526C1B81CAD132C001DF365 /* CXTabbarController.m in Sources */,
+				1526C6351CAD3F70001DF365 /* CXFocusViewController.m in Sources */,
+				1526C6321CAD3F4C001DF365 /* CXNewPostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
