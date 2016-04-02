@@ -7,6 +7,7 @@
 //
 
 #import "CXMeViewController.h"
+#import "UIBarButtonItem+CXExtension.h"
 
 @interface CXMeViewController ()
 
@@ -17,6 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    self.navigationItem.title = @"我的";
+    
+    // 我的导航栏右边的内容
+    UIBarButtonItem *moonButton = [UIBarButtonItem itemWithImage:@"mine-moon-icon" highImage:@"mine-moon-icon-click" target:self action:@selector(moonClick)];
+    UIBarButtonItem *settingButton = [UIBarButtonItem itemWithImage:@"mine-setting-icon" highImage:@"mine-setting-icon-click" target:self action:@selector(settingClick)];
+    
+    self.navigationItem.rightBarButtonItems = @[settingButton,moonButton];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

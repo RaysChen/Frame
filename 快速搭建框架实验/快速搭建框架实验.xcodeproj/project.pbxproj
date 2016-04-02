@@ -21,6 +21,8 @@
 		1526C6381CAD3F8B001DF365 /* CXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526C6371CAD3F8B001DF365 /* CXMeViewController.m */; };
 		1548F2D41CAE0D980061219A /* CXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1548F2D31CAE0D980061219A /* CXTabBar.m */; };
 		1548F2D71CAE0F390061219A /* CXPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1548F2D61CAE0F390061219A /* CXPublishViewController.m */; };
+		15EC6C2A1CAFC6BC002C9290 /* CXItemTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EC6C291CAFC6BC002C9290 /* CXItemTool.m */; };
+		15EC6C2D1CAFCF8C002C9290 /* UIBarButtonItem+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EC6C2C1CAFCF8C002C9290 /* UIBarButtonItem+CXExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,10 @@
 		1548F2D31CAE0D980061219A /* CXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBar.m; sourceTree = "<group>"; };
 		1548F2D51CAE0F390061219A /* CXPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXPublishViewController.h; sourceTree = "<group>"; };
 		1548F2D61CAE0F390061219A /* CXPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXPublishViewController.m; sourceTree = "<group>"; };
+		15EC6C281CAFC6BC002C9290 /* CXItemTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXItemTool.h; sourceTree = "<group>"; };
+		15EC6C291CAFC6BC002C9290 /* CXItemTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXItemTool.m; sourceTree = "<group>"; };
+		15EC6C2B1CAFCF8C002C9290 /* UIBarButtonItem+CXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CXExtension.h"; sourceTree = "<group>"; };
+		15EC6C2C1CAFCF8C002C9290 /* UIBarButtonItem+CXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CXExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +179,10 @@
 			children = (
 				1526C16B1CAD049A001DF365 /* AppDelegate.h */,
 				1526C16C1CAD049A001DF365 /* AppDelegate.m */,
+				15EC6C281CAFC6BC002C9290 /* CXItemTool.h */,
+				15EC6C291CAFC6BC002C9290 /* CXItemTool.m */,
+				15EC6C2B1CAFCF8C002C9290 /* UIBarButtonItem+CXExtension.h */,
+				15EC6C2C1CAFCF8C002C9290 /* UIBarButtonItem+CXExtension.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -503,7 +513,9 @@
 			files = (
 				1526C62F1CAD3F22001DF365 /* CXEssenceViewController.m in Sources */,
 				1526C6381CAD3F8B001DF365 /* CXMeViewController.m in Sources */,
+				15EC6C2D1CAFCF8C002C9290 /* UIBarButtonItem+CXExtension.m in Sources */,
 				1526C16D1CAD049A001DF365 /* AppDelegate.m in Sources */,
+				15EC6C2A1CAFC6BC002C9290 /* CXItemTool.m in Sources */,
 				1526C16A1CAD049A001DF365 /* main.m in Sources */,
 				1548F2D41CAE0D980061219A /* CXTabBar.m in Sources */,
 				1526C1B81CAD132C001DF365 /* CXTabbarController.m in Sources */,
